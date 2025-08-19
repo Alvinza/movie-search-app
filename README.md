@@ -2,6 +2,10 @@
 
 A modern, responsive meal discovery application built with React and Tailwind CSS. Search for delicious meals and explore detailed recipes with ingredients, cooking instructions, and video tutorials.
 
+## 🌐 Live Demo
+
+**[View Live App](https://meal-finder-seven-wheat.vercel.app/)**
+
 ## 🍽️ Features
 
 - **Meal Search**: Find meals by name or keyword
@@ -58,50 +62,7 @@ Make sure you have Node.js installed on your machine:
 3. **View Recipe Details**: Explore ingredients, instructions, and watch cooking videos
 4. **Responsive Experience**: Use the app seamlessly on any device
 
-## 🌟 API Information
 
-This app uses [TheMealDB API](https://www.themealdb.com/api.php), which provides:
-- Free access to meal data
-- High-quality meal images
-- Detailed ingredient information
-- YouTube video links for cooking tutorials
-- No API key required for basic usage
-
-## 📁 Project Structure
-
-```
-meal-finder-app/
-├── public/
-│   ├── index.html
-│   └── ...
-├── src/
-│   ├── components/
-│   │   ├── MealCard.js
-│   │   ├── MealDetail.js
-│   │   └── SearchBar.js
-│   ├── App.js
-│   ├── App.css
-│   └── index.js
-├── package.json
-└── README.md
-```
-
-## 🎨 Styling
-
-The application uses Tailwind CSS for styling, providing:
-- Responsive design patterns
-- Consistent color schemes
-- Modern UI components
-- Optimized for performance
-
-## 🔧 Available Scripts
-
-In the project directory, you can run:
-
-- `npm start` - Runs the app in development mode
-- `npm test` - Launches the test runner
-- `npm run build` - Builds the app for production
-- `npm run eject` - Removes the single build dependency (irreversible)
 
 ## 🌐 Deployment
 
@@ -118,27 +79,12 @@ To deploy this static frontend application:
    - GitHub Pages
    - Firebase Hosting
 
-## 🤝 Contributing
 
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## 📝 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
-## 🙏 Acknowledgments
-
-- [TheMealDB](https://www.themealdb.com/) for providing the free meal database API
-- [React](https://reactjs.org/) team for the amazing framework
-- [Tailwind CSS](https://tailwindcss.com/) for the utility-first styling approach
 
 ## 📞 Contact
 
 If you have any questions or suggestions, feel free to reach out!
+- alvinzondi@gmail.com
 
 ---
 
