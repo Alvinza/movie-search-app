@@ -2,17 +2,12 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 export default function Home() {
-  // State to store the search input
-  const [searchTerm, setSearchTerm] = useState("");
-  // State to store movies returned from the API
-  const [movies, setMovies] = useState([]);
-  // State to filter movies by type (movie, series, episode)
-  const [filter, setFilter] = useState("");
-  // State to handle loading indicator while fetching data
-  const [loading, setLoading] = useState(false);
+const [searchTerm, setSearchTerm] = useState(""); // Search input
+const [movies, setMovies] = useState([]); // API movie results
+const [filter, setFilter] = useState(""); // Filter by type (movie/series/episode)
+const [loading, setLoading] = useState(false); 
 
-  const API_KEY = process.env.REACT_APP_OMDB_API_KEY;
-  // Your OMDB API key
+  const API_KEY = process.env.REACT_APP_OMDB_API_KEY; // OMDB API key
 
   // Function to fetch movies from the API based on searchTerm
   const searchMovies = async () => {
@@ -33,7 +28,7 @@ export default function Home() {
       console.error("Error fetching movies:", error);
       setMovies([]); // Clear movies if there's an error
     } finally {
-      setLoading(false); // Stop loading after fetch
+      setLoading(false); 
     }
   };
 
@@ -51,7 +46,6 @@ export default function Home() {
 
   return (
     <div className="text-center p-5 bg-black min-h-screen">
-      {/* App Title */}
       <h1 className="text-3xl font-bold mb-5 text-[#FFD700]">
         🎬 Movie Search App
       </h1>
