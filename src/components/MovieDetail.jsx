@@ -2,10 +2,8 @@ import React, { useEffect, useState } from "react";
 import { useParams, Link } from "react-router-dom";
 
 export default function MovieDetail() {
-  // Get movie ID from URL
-  const { id } = useParams();
-  // State to store movie details
-  const [movie, setMovie] = useState(null);
+  const { id } = useParams();   // Get movie ID from URL
+  const [movie, setMovie] = useState(null);  // store movie details
 
   const API_KEY = process.env.REACT_APP_OMDB_API_KEY; //  OMDB API key
 
