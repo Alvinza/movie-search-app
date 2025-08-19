@@ -1,27 +1,29 @@
-# Meal Finder App
+# Movie Search App
 
-A modern, responsive meal discovery application built with React and Tailwind CSS. Search for delicious meals and explore detailed recipes with ingredients, cooking instructions, and video tutorials.
+A sleek, responsive movie discovery application built with React and Tailwind CSS. Search for your favorite movies and explore detailed information with an elegant black and yellow design.
 
 ## 🌐 Live Demo
 
-**[View Live App](https://meal-finder-seven-wheat.vercel.app/)**
+**[View Live App](https://your-movie-app.vercel.app)**
 
-## 🍽️ Features
+## 🎬 Features
 
-- **Meal Search**: Find meals by name or keyword
-- **Detailed Recipe Information**: View comprehensive meal details including:
-  - High-quality meal images
-  - Complete ingredient lists
-  - Step-by-step cooking instructions
-  - Embedded YouTube cooking videos
+- **Movie Search**: Find movies by title or keyword
+- **Detailed Movie Information**: View comprehensive movie details including:
+  - High-quality movie posters
+  - Release year and runtime
+  - Plot summaries
+  - Cast and director information
+  - IMDb ratings
+  - Genre classifications
 - **Responsive Design**: Optimized for desktop and mobile devices
-- **Clean UI**: Modern interface built with Tailwind CSS
+- **Dark Theme**: Elegant black background with yellow accents
 
 ## 🛠️ Technologies Used
 
 - **React** - Frontend JavaScript library for building user interfaces
 - **Tailwind CSS** - Utility-first CSS framework for styling
-- **TheMealDB API** - Free meal database API for fetching recipe data
+- **OMDb API** - Open Movie Database API for fetching movie data
 
 ## 🚀 Getting Started
 
@@ -36,7 +38,7 @@ Make sure you have Node.js installed on your machine:
 1. Clone the repository:
    ```bash
    git clone <your-repository-url>
-   cd meal-finder-app
+   cd movie-search-app
    ```
 
 2. Install dependencies:
@@ -57,28 +59,10 @@ Make sure you have Node.js installed on your machine:
 
 ## 📖 How to Use
 
-1. **Search for Meals**: Enter a meal name or ingredient in the search bar
-2. **Browse Results**: Click on any meal card to view detailed information
-3. **View Recipe Details**: Explore ingredients, instructions, and watch cooking videos
+1. **Search for Movies**: Enter a movie title in the search bar
+2. **Browse Results**: View movie cards with posters and basic information
+3. **View Movie Details**: Click on any movie to see detailed information
 4. **Responsive Experience**: Use the app seamlessly on any device
-
-
-
-## 🌐 Deployment
-
-To deploy this static frontend application:
-
-1. Build the project:
-   ```bash
-   npm run build
-   ```
-
-2. Deploy the `build` folder to your preferred hosting service:
-   - Netlify
-   - Vercel
-   - GitHub Pages
-   - Firebase Hosting
-
 
 
 ## 📞 Contact
@@ -88,4 +72,4 @@ If you have any questions or suggestions, feel free to reach out!
 
 ---
 
-**Enjoy discovering new meals and happy cooking! 🍳**
+**Enjoy discovering movies! 🎥**
